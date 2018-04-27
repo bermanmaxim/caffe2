@@ -22,6 +22,8 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     protobuf-compiler \
     python-dev \
     python-numpy \
+    python-pip \
+    python-setuptools \
     python-pydot \
     python-scipy \
     wget \
@@ -40,7 +42,6 @@ RUN pip install --no-cache-dir --upgrade pip setuptools wheel && \
     pydot \
     python-nvd3 \
     pyyaml \
-    requests \
     scikit-image \
     scipy \
     setuptools \
