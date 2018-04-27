@@ -29,7 +29,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     wget \
     && rm -rf /var/lib/apt/lists/*
 
-RUN pip install --no-cache-dir --upgrade pip=9 setuptools wheel && \
+RUN pip install --no-cache-dir --upgrade pip==9 setuptools wheel && \
     pip install --no-cache-dir \
     flask \
     future \
